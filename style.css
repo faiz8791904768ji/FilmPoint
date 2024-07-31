@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/* font family poppins */
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("images/bg.jpg");
+    background-position: center center;
+    background-size: max(2933px ,100px);
+    background-repeat: no-repeat;
+    height: 120vh;
+    position: relative;
+}
+ .box{
+    height: 120vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+ } 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;  
+    margin: auto;
+    height: 62px;
+}
+ nav .img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+} 
+.tbtn{
+    position: relative;
+    z-index: 10;
+}
+.text{
+    height: calc(100% - 62px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   font-family: sans-serif;
+   gap: 23px;
+   padding: 0 30px;
+}
+.utext{
+    font-family: "Poppins", sans-serif;
+ font-weight: bolder ;
+ font-size: 48px;
+ text-align: center;
+}
+.text> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.text> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.sline{
+    background-color: grey;
+    height: 3px;
+}
+.btn-red-s{
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    font-weight: bolder;
+    padding: 3px 8px;
+    cursor: pointer;
+
+}
+.btn-red{
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-wht-s{
+    background-color:transparent;
+    font-weight: bolder;
+    padding: 3px 8px;
+    border-radius: 4px; 
+    color: white;
+    cursor: pointer;
+}
+.input {
+    padding: 4px 24px 12px 9px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+}
+.mbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.first{
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1300px){
+    .first{
+        flex-wrap: wrap;
+    }
+}
+
+.sec-img {
+   position: relative; 
+
+}
+.sec-img img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.sec-img video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 500px;
+}
+.sec-text{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+
+}
+.sec-text >:first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.tvText{
+    font-size: 24px;
+}
+
+.two{
+    color: white;
+    padding: 24px;
+    background-color: black;
+
+}
+.two h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+/* for hover effect */
+
+.a:hover{
+        background-color: rgb(76, 75, 75);
+}
+.a{
+    font-size: 24px;
+    transition: all 1s ease-out;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 41, 41);
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+    padding: 24px;
+    cursor: pointer;
+}
+.a.img{
+    color: wheat;
+}
+.neww{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+}
+@media screen and (max-width: 1300px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .utext{
+        font-size: 38px;
+    }
+}
+.fbox{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    text-decoration: underline;
+    color:rgb(160, 154, 154);
+}
+.que{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
