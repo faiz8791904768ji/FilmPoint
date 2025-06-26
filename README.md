@@ -1,3 +1,9 @@
-# Netflix-Clone
-This project is a clone of the popular streaming platform Netflix, with a focus on implementing advanced HTML and CSS techniques to achieve a polished design. I have ensured that the website is fully responsive by utilizing media queries, allowing the content to adapt seamlessly across various devices, including mobile phones, tablets, and laptops. The layout and text are optimized for clarity and accessibility on screens of all sizes.
-Please have a look.    https://faiz8791904768ji.github.io/Netflix-Clone/
+📺 FilmPoint
+FilmPoint is a front-end video streaming website designed to replicate the look and feel of modern OTT platforms. The project focuses on implementing advanced HTML, CSS and JavaScript  techniques to create a clean, structured, and visually appealing user interface.
+
+✨ Key Features:
+Fully responsive layout using CSS media queries
+Designed to adapt smoothly across mobile, tablet, and desktop devices
+Structured sections for featured content, movie thumbnails, and categories
+Optimized layout and typography for clarity, usability, and accessibility
+This project demonstrates my ability to build a responsive and modern web interface using core web technologies. Feel free to explore the code and see how the UI comes together!
