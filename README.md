@@ -1,4 +1,4 @@
-📺 FilmPoint
+# FilmPoint
 FilmPoint is a front-end video streaming website designed to replicate the look and feel of modern OTT platforms. The project focuses on implementing advanced HTML, CSS and JavaScript  techniques to create a clean, structured, and visually appealing user interface.
 
 ✨ Key Features:
